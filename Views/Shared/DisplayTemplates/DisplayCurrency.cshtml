@@ -1,6 +1,0 @@
-﻿@model decimal
-@{
-    IFormatProvider formatProvider = new System.Globalization.CultureInfo("hr-HR");
-
-    <span>@Model.ToString("C", formatProvider)</span>
-}
